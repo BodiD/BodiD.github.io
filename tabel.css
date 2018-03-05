@@ -13,3 +13,26 @@
   border: 6px outset silver;
   color:  blue;
 }
+
+body {
+  background-color: rgb(153, 204, 255);
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+h1, h2 {
+  border: 4px dotted ;
+  color: #FFDDFF;
+  background-color: rgb(0, 51, 153);
+  text-align : left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  text-align : left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+
+
+p {
+  text-align: justify;
+  font-size: 12
+}
