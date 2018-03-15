@@ -21,3 +21,31 @@ p {
   text-align: justify;
   font-size: 12
 }
+
+a:link, a:visited {
+
+    background-color: dimgrey;
+
+    color: white;
+
+    padding: 10px 19px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+}
+
+ 
+
+ 
+
+a:hover, a:active {
+
+    background-color: white;
+
+    color: dimgrey;
+
+}
