@@ -2,15 +2,26 @@
 article {
     font-size: 20px;
     border: 4px outset ;
-    margin-left: 35%; 
-    margin-right: 29%;
+    margin-left: 30%; 
+    margin-right: 30%;
     float: right;
     color: grey;
     background-color: white; 
+    padding: 20px;
 }
 
 ul {
   padding: 10px;
+    width:100%;
+    height:20px;
+    text-align:center;
+    margin-bottom: 20px
+}
+li {
+        display:inline-block;
+        *display:inline; /*IE7*/
+        *zoom:1; /*IE7*/
+        margin-right:10px;
 }
 
 ul li {
@@ -18,6 +29,7 @@ ul li {
   padding: 5px;
   border: solid 2px white;
   display: inline-block;
+  background-color: #669999; 
 }
 
 ul li a {
@@ -53,4 +65,12 @@ header h1 {
 
 section {
 
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
 }
