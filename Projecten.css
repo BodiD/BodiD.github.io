@@ -28,6 +28,8 @@ article {
     border: 4px outset ;
     margin-left: 30%; 
     margin-right: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: grey;
     background-color: white; 
     padding: 20px;
